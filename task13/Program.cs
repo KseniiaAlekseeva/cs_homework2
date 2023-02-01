@@ -1,10 +1,8 @@
 ﻿// Program gives the third digit of entered number
 // or informs that there is no third digit
 
-int num = 0;
-
 Console.WriteLine("Enter a number: ");
-num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine());
 
 int curnum = Math.Abs(num);
 int quot = curnum;
